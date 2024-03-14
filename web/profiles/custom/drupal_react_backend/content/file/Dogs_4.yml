@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 285f5685-c5e7-4233-b343-a86c31ef5dd0
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Dogs_4.png
+  uri:
+    -
+      value: 'public://2024-03/Dogs_4.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1612365
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1710390823

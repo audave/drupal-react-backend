@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e7fdde11-a346-4eec-b673-ac76d0f89bdd
+  bundle: article
+  default_langcode: en
+  depends:
+    cdee3204-4a71-4403-a27d-4fa61e9eded3: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Dogs 3'
+  created:
+    -
+      value: 1710390708
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  body:
+    -
+      value: '<p>Cute dog 3</p>'
+      format: basic_html
+      summary: ''
+  comment:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1710390708
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_image:
+    -
+      entity: cdee3204-4a71-4403-a27d-4fa61e9eded3
+      alt: 'Cute dog 3'
+      title: ''
+      width: 696
+      height: 1042

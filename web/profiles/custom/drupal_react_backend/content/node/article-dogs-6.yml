@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5d5dc980-7825-4ef3-a62e-709d6a76e984
+  bundle: article
+  default_langcode: en
+  depends:
+    f2059a44-ab05-445c-b9da-537d4cc80f61: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Dogs 6'
+  created:
+    -
+      value: 1710391065
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  body:
+    -
+      value: '<p>Dogs 6</p>'
+      format: basic_html
+      summary: ''
+  comment:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1710391064
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_image:
+    -
+      entity: f2059a44-ab05-445c-b9da-537d4cc80f61
+      alt: 'Dogs 6'
+      title: ''
+      width: 1408
+      height: 1040

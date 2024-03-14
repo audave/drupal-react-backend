@@ -1,0 +1,58 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4da57b26-0485-4c25-97c2-2f7d4a344f4a
+  bundle: article
+  default_langcode: en
+  depends:
+    e27af763-00b4-4313-abe5-853fc8f15044: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Dogs 1'
+  created:
+    -
+      value: 1710389711
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  body:
+    -
+      value: '<p>Thats not a dog</p>'
+      format: basic_html
+      summary: ''
+  comment:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1710389710
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_image:
+    -
+      entity: e27af763-00b4-4313-abe5-853fc8f15044
+      alt: 'Thats not a dog'
+      title: ''
+      width: 637
+      height: 424
+

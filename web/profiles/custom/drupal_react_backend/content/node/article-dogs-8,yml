@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 997624ef-bbad-460c-9431-9147b0b7f99e
+  bundle: article
+  default_langcode: en
+  depends:
+    65ca87d5-6ca6-4789-850b-fa211a9c7bba: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Dogs 8'
+  created:
+    -
+      value: 1710391433
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  body:
+    -
+      value: '<p>Dogs 8</p>'
+      format: basic_html
+      summary: ''
+  comment:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1710391432
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_image:
+    -
+      entity: 65ca87d5-6ca6-4789-850b-fa211a9c7bba
+      alt: 'Dogs 8'
+      title: ''
+      width: 1550
+      height: 1042

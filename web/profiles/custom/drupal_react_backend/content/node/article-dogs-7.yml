@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: dfef33f4-f698-4e5c-b374-be4fc77735b0
+  bundle: article
+  default_langcode: en
+  depends:
+    24f80b9e-fae0-42c6-b2f5-a558d0a315d4: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Dogs 7'
+  created:
+    -
+      value: 1710391324
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  body:
+    -
+      value: '<p>Dogs 7</p>'
+      format: basic_html
+      summary: ''
+  comment:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1710391324
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_image:
+    -
+      entity: 24f80b9e-fae0-42c6-b2f5-a558d0a315d4
+      alt: 'Dogs 7'
+      title: ''
+      width: 1036
+      height: 1038

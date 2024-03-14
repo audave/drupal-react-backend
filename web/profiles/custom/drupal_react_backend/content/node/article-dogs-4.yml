@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7e7a91a4-158f-443f-a532-cecd1bab1800
+  bundle: article
+  default_langcode: en
+  depends:
+    285f5685-c5e7-4233-b343-a86c31ef5dd0: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Dogs 4'
+  created:
+    -
+      value: 1710390833
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  body:
+    -
+      value: '<p>Dogs 4</p>'
+      format: basic_html
+      summary: ''
+  comment:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1710390832
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_image:
+    -
+      entity: 285f5685-c5e7-4233-b343-a86c31ef5dd0
+      alt: 'Dogs 4'
+      title: ''
+      width: 1550
+      height: 1040

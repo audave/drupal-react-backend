@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fd208ca4-a3bc-410f-8aa6-cd5bd59c5226
+  bundle: article
+  default_langcode: en
+  depends:
+    a94de89b-5bd2-4262-b830-2d8754c02a66: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Dogs 2'
+  created:
+    -
+      value: 1710390539
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  body:
+    -
+      value: '<p>Its a dog 2</p>'
+      format: basic_html
+      summary: ''
+  comment:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1710390538
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_image:
+    -
+      entity: a94de89b-5bd2-4262-b830-2d8754c02a66
+      alt: 'Its a dog'
+      title: ''
+      width: 1578
+      height: 1034

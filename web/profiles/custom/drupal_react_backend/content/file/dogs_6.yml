@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f2059a44-ab05-445c-b9da-537d4cc80f61
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Dogs_6.png
+  uri:
+    -
+      value: 'public://2024-03/Dogs_6.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 2508128
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1710391056

@@ -39,6 +39,7 @@ install:
   - jsonapi
   - jsonapi_extras
   - jsonapi_include
+  - default_content
 
 themes:
   - olivero

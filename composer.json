@@ -19,6 +19,7 @@
         "drupal/core-composer-scaffold": "^10.2",
         "drupal/core-project-message": "^10.2",
         "drupal/core-recommended": "^10.2",
+        "drupal/default_content": "^2.0@alpha",
         "drupal/devel": "^5.1",
         "drupal/jsonapi_extras": "^3.24",
         "drupal/jsonapi_include": "^1.7",
