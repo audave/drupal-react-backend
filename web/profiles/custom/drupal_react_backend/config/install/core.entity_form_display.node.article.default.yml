@@ -7,7 +7,7 @@ dependencies:
     - field.field.node.article.field_downvotes
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
-    - field.field.node.article.field_upvote
+    - field.field.node.article.field_upvotes
     - node.type.article
   module:
     - path
@@ -29,7 +29,7 @@ content:
     settings:
       placeholder: ''
     third_party_settings: {  }
-  field_upvote:
+  field_upvotes:
     type: number
     weight: 121
     region: content

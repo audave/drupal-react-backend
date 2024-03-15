@@ -5,7 +5,7 @@ dependencies:
     - field.storage.node.field_upvotes
     - node.type.article
 id: node.article.field_upvotes
-field_name: field_upvote
+field_name: field_upvotes
 entity_type: node
 bundle: article
 label: upvotes

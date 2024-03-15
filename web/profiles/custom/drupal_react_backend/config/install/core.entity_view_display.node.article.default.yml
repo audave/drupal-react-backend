@@ -7,7 +7,7 @@ dependencies:
     - field.field.node.article.field_downvotes
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
-    - field.field.node.article.field_upvote
+    - field.field.node.article.field_upvotes
     - node.type.article
   module:
     - user
@@ -25,7 +25,7 @@ content:
     third_party_settings: {  }
     weight: 102
     region: content
-  field_upvote:
+  field_upvotes:
     type: number_integer
     label: above
     settings:

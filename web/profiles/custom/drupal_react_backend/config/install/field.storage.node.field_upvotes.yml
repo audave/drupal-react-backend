@@ -3,8 +3,8 @@ status: true
 dependencies:
   module:
     - node
-id: node.field_upvote
-field_name: field_upvote
+id: node.field_upvotes
+field_name: field_upvotes
 entity_type: node
 type: integer
 settings:

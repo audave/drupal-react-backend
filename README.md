@@ -17,5 +17,5 @@ To install a dev portal using this profile.
 ```
 lando start
 lando composer install
-lando drush site:install drupal_react_backend  --site-name="Apigee API Portal" --db-url=mysql://drupal10:drupal10@database/drupal10 -y
+lando drush site:install drupal_react_backend  --site-name="React Backend test" --account-pass="pass" --db-url=mysql://drupal10:drupal10@database/drupal10 -y
 ```
