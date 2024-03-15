@@ -1,0 +1,16 @@
+article_update.upvote:
+  path: '/article-update/upvote'
+  defaults:
+    _title: 'Upvote'
+    _controller: '\Drupal\article_update\Controller\ArticleUpdateController'
+  requirements:
+    _permission: 'access content'
+
+article_update.vote-endpoint:
+  path: '/article-update/vote-endpoint'
+  defaults:
+    _controller: '\Drupal\article_update\Controller\ArticleUpdateController::voteAcceptPost'
+  methods: [POST]
+  requirements:
+    _access: 'TRUE'
+    _format: 'json'

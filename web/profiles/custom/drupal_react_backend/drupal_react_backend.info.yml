@@ -40,6 +40,7 @@ install:
   - jsonapi_extras
   - jsonapi_include
   - default_content
+  - article_update
 
 themes:
   - olivero
