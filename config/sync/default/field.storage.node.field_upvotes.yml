@@ -1,0 +1,22 @@
+uuid: b02a642c-e6ef-444e-9290-86a87c83a49d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: mwUzOzvTKuRHa5KyOXa1wH6iSs3hIZhdz4JlITv3Nis
+id: node.field_upvotes
+field_name: field_upvotes
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

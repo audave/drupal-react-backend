@@ -1,0 +1,49 @@
+uuid: 60979597-64ce-4feb-8cf7-f8cc6d0b192f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.article.body
+    - field.field.node.article.comment
+    - field.field.node.article.field_downvotes
+    - field.field.node.article.field_image
+    - field.field.node.article.field_tags
+    - field.field.node.article.field_upvotes
+    - node.type.article
+  module:
+    - user
+_core:
+  default_config_hash: wHgGxKlRwNxPEtFaOal_5ftacHdJUlN7u_b910ECWHA
+id: node.article.default
+targetEntityType: node
+bundle: article
+mode: default
+content:
+  field_downvotes:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_upvotes:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  comment: true
+  field_image: true
+  field_tags: true

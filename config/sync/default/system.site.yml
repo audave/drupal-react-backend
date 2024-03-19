@@ -1,8 +1,8 @@
 _core:
   default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
 langcode: en
-uuid: fc107575-31fd-4925-bf35-8d962c4b1575
-name: 'Apigee API Portal'
+uuid: 6d067e63-924e-4f3b-85d4-4b5730b778ef
+name: 'React Backend test'
 mail: admin@example.com
 slogan: ''
 page:

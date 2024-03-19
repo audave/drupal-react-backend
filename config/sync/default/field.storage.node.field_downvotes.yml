@@ -1,0 +1,22 @@
+uuid: cccfc40d-57fe-45af-8fca-cce8cef8d327
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: QSYfSqoKco2gw_c_Ff16hbK4OHcv_2XvOJfVoH4hfxU
+id: node.field_downvotes
+field_name: field_downvotes
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
