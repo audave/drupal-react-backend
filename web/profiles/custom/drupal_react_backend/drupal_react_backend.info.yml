@@ -40,7 +40,12 @@ install:
   - jsonapi_extras
   - jsonapi_include
   - default_content
+  - admin_toolbar
+  - admin_toolbar_links_access_filter
+  - admin_toolbar_tools
   - article_update
+  - simple_oauth
+  - consumers
 
 themes:
   - olivero
